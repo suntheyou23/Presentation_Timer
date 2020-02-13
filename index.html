@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
+		<script type="text/javascript" src="js/Presentation_Timer.js"></script>
+		<link rel="stylesheet" href="css/style.css">
+
+		<title>Presentation Timer App</title>
+	</head>
+	<body>
+		<header>
+			Presentation Timer App
+		</header>
+		<div class="parent">
+			<div class="Slider">
+				<h1>チーム人数</h1>
+					　<span class="SValue">1</span><span class="Slider_label">人</span>
+				　　<input type="range" name="peopleN" class="peopleN" min="1" max="3" step="1" value="1">
+			</div>
+			<div class="Title">発表タイム</div>
+		</div>
+
+		<div class="Timer"></div>
+		<div class="Timer_button">
+			<button type="button" class="button start_button">Start</button>
+			<button type="button" class="button reset_button">Reset</button>
+		</div>
+
+		<audio class="chin1" preload="auto">
+			<source src="sound/chin1.wav" type="audio/wav">
+		</audio>
+		<audio class="chin2" preload="auto">
+			<source src="sound/chin2.wav" type="audio/wav">
+		</audio>
+		<audio class="chin3" preload="auto">
+			<source src="sound/chin3.wav" type="audio/wav">
+		</audio>
+	</body>
+</html>

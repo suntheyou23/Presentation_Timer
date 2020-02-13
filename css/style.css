@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	color: #666666;;
+}
+
+header {
+	display: flex;
+	height: 60;
+	left: 0;
+	right: 0;
+	margin-bottom: 20px;
+	padding: 10px 10px;
+	background-color: gray;
+	color: white;
+	font-size: 20pt;
+}
+
+.parent {
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+.Title {
+	margin: 20px 0;
+	font-size: 50pt;
+}
+
+.Slider {
+	position: absolute;
+	left: 0;
+	margin-left: 20px;
+}
+
+.SValue {
+	font-size: 50pt;
+}
+
+.Slider_label {
+	font-size: 20px;
+}
+
+.Timer {
+	text-align: center;
+	font-size: 130pt;
+}
+
+.button {
+	width: 200px;
+	height: 100px;
+	margin: 20px 30px;
+	font-size: 25pt;
+}
+
+.Timer_button {
+	text-align: center;
+}
